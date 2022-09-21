@@ -1,12 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-media-item-list',
+  selector: 'mw-media-item-list',
   templateUrl: './media-item-list.component.html',
   styleUrls: ['./media-item-list.component.scss']
 })
+
 export class MediaItemListComponent {
-  mediaItems = [
+
+
+
+  mediaItems =
+  [
     {
       id: 1,
       name: 'Firebug',
@@ -51,5 +56,8 @@ export class MediaItemListComponent {
     }
   ];
 
-  onMediaItemDelete(mediaItem) { }
+  onMediaItemDelete(mediaItem: string) { }
 }
+
+
+

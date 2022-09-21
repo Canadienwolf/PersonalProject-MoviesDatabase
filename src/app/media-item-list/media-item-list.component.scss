@@ -23,7 +23,7 @@ section {
   flex: 1;
   display: flex;
   flex-flow: row wrap;
-  align-content: flex-start;
+  align-content: flex;
 }
 section > media-item {
   margin: 10px;

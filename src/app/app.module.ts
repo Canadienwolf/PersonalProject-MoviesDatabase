@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { MediaItemListComponent } from './media-item-list/media-item-list.component';
 import { MediaItemComponent } from './media-item/media-item.component';
 import { FavoriteDirective } from './favorite.directive';
+import { CategoryListPipe } from './category-list.pipe';
 
 @NgModule({
+
   declarations: [
     AppComponent,
     MediaItemListComponent,
     MediaItemComponent,
-    FavoriteDirective
+    FavoriteDirective,
+    CategoryListPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    // AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
