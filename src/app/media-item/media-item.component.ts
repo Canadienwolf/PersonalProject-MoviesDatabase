@@ -1,4 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { mediaItem } from '../types/typeDeclarations';
+
 
 @Component({
   selector: 'mw-media-item',

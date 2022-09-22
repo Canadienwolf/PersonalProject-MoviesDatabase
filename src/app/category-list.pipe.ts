@@ -1,4 +1,5 @@
 import { Pipe, PipeTransform, Component } from '@angular/core';
+import { mediaItem, category } from './types/typeDeclarations';
 
 @Pipe({
   name: 'categoryList'
@@ -8,9 +9,10 @@ import { Pipe, PipeTransform, Component } from '@angular/core';
 export class CategoryListPipe implements PipeTransform
 {
 
-  transform(mediaItems)
+
+  transform(mediaItems: mediaItem[])
   {
-    const categories  = [];
+    const categories:category[]  = [];
     mediaItems.forEach(mediaItem =>
     {
       if (categories.indexOf(mediaItem.category) <= -1)
