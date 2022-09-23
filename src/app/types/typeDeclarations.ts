@@ -1,15 +1,19 @@
 import { Component } from '@angular/core';
 
-export type mediaItem = {
-  mediaItem: string;
-  productId: number;
-  productName: string;
-  productCode: string;
+export type mediaItemDeclaration = {
+  id: number;
+  name: string;
+  medium: string;
   category: category;
+  year: number;
+  watchedOn: number;
+  isFavorite: boolean;
 }
 
+
+
 export type category = {
-  productId: number;
+  //productId: number;
   productName: string;
-  productCode: string;
+  //productCode: string;
 }
