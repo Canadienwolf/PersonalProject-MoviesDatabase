@@ -6,7 +6,7 @@ export type mediaItemDeclaration = {
   medium: string;
   category: category;
   year: number;
-  watchedOn: number;
+  watchedOn: any;
   isFavorite: boolean;
 }
 

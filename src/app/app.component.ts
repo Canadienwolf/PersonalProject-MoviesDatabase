@@ -8,13 +8,17 @@ import { mediaItemDeclaration } from './types/typeDeclarations';
 })
 
 export class AppComponent {
-  firstMediaItem: mediaItemDeclaration | null = {
+  firstMediaItem: mediaItemDeclaration = {
     id: 1,
     name: 'Firebug',
     medium: 'Series',
     category: { productName: 'Science Fiction' },
     year: 2010,
-    watchedOn: 1294166565384,
+    watchedOn: 23467,
     isFavorite: false
   };
+
+  onMediaItemDelete(mediaItem: any){
+
+  }
 }
