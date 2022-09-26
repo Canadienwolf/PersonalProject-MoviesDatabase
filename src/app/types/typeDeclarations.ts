@@ -1,5 +1,3 @@
-import { Component } from '@angular/core';
-
 export type mediaItemDeclaration = {
   id: number;
   name: string;
@@ -9,7 +7,6 @@ export type mediaItemDeclaration = {
   watchedOn: any;
   isFavorite: boolean;
 }
-
 
 
 export type category = {
